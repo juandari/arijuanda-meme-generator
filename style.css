@@ -1,0 +1,81 @@
+* {
+  border-style: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Dela Gothic One', cursive;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 2rem;
+  background: linear-gradient(to right, #d00000 0%, #ffba08 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+button {
+  background: #d00000;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+form {
+  text-align: center;
+}
+
+.memeText {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.meme {
+  position: relative;
+  width: 40%;
+  margin: 1rem auto;
+}
+
+.meme > img {
+  width: 100%;
+}
+
+.meme > h2 {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.meme > .bottom {
+  bottom: 0;
+}
+
+.meme > .top {
+  top: 0;
+}
